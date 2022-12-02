@@ -406,12 +406,6 @@ body{
     background-color: black;
 }
 
-/* media query for the animation action of hovering */
-/* @media screen and (max-width:1240px) {
-    .video-holder{
-        height: 92rem;
-    }
-} */
 @media screen and (max-width:1170px) {
     .video-hover:hover{
         width: 90%;
