@@ -400,13 +400,18 @@ body{
     width: 22rem;
     z-index: 1;
 }
+.end-background{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+}
 
 /* media query for the animation action of hovering */
-@media screen and (max-width:1240px) {
+/* @media screen and (max-width:1240px) {
     .video-holder{
         height: 92rem;
     }
-}
+} */
 @media screen and (max-width:1170px) {
     .video-hover:hover{
         width: 90%;
@@ -419,6 +424,9 @@ body{
     }
     .video-hover:hover .hover-buttons{
         display: none !important;
+    }
+    .end-background{
+        display: none;
     }
 }
 
